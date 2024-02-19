@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import "layout/header.css";
+@import "base/main.css";
+@import "base/menu.css";
+@import "base/media.css";
+@import "utils/variables.css";
+@import "layout/footer.css";
+@import "components/carrousel.css";
