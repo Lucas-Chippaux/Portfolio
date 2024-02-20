@@ -37,7 +37,7 @@ nav {
     font-weight: 500;
     transition: 0.2s all ease-in-out;
     color: #282828;
-    text-align: center; /* Centre le texte dans le menu */
+    text-align: center; 
 }
 
 .menu:hover a {
