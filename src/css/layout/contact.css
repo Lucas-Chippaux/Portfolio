@@ -17,6 +17,7 @@ body {
   h3 {
     text-align: center;
   }
+
   
   .form-group {
     margin-bottom: 20px;
@@ -54,3 +55,20 @@ body {
     background-color: #ccc;
   }
   
+  @media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info-contact {
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+
+    .form-group {
+        margin-left: 10px; 
+        margin-right: 10px; 
+    }
+}

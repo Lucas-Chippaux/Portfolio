@@ -1,63 +1,66 @@
-body{
-    margin:0;
-    overflow-x:hidden;
-    }
-    
-    .footer{
-    background:#282828;
-    padding:30px 0px;
-    font-family: 'Tenor', sans-serif;
-    text-align:center;
-    }
-    
-    .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color: #FAFAFA
-    }
-    
-    .footer .row a{
-    text-decoration:none;
-    color:#FAFAFA;
-    transition:0.5s;
-    }
-    
-    .footer .row a:hover{
-    color:#bbbbbb;
-    }
-    
-    .footer .row ul{
-    width:100%;
-    }
-    
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .social-icon {
-    width: 50px; 
-    height: auto; 
-    margin-right: 10px; 
-    }
-  
-    .footer .row a i {
-    font-size: 2em;
-    }
-  
-    @media (max-width: 720px) {
-    .footer .row {
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.footer {
+  background: #282828;
+  padding: 30px 0px;
+  font-family: 'Tenor', sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: #FAFAFA;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: #FAFAFA;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #bbbbbb; /* Changement de couleur du texte au survol */
+}
+
+.footer .row a:hover .social-icon {
+  filter: grayscale(100%); /* Appliquer un filtre de désaturation à 100% pour l'icône LinkedIn */
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.social-icon {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+}
+
+@media (max-width: 720px) {
+  .footer .row {
       text-align: left;
       padding: 5%;
-    }
-    .footer .row ul li {
+  }
+  .footer .row ul li {
       display: block;
       margin: 10px 0px;
       text-align: left;
-    }
-    .footer .row a i {
-      margin: 0% 3%;
-    }
   }
-  
+  .footer .row a i {
+      margin: 0% 3%;
+  }
+}
