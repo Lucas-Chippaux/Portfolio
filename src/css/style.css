@@ -83,7 +83,9 @@
 
 h2 {
     font-family: 'Unbounded', sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 h3 {

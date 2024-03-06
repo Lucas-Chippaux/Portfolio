@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #FAFAFA;
   }
   
   .container {
     width: 80%;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #FAFAFA;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ body {
   
   button {
     background-color: #282828;
-    color: white;
+    color: #FAFAFA;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
