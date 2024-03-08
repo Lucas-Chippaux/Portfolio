@@ -3,11 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "layout/header.css";
 @import "base/main.css";
-@import "base/menu.css";
 @import "base/media.css";
 @import "utils/variables.css";
 @import "layout/footer.css";
-@import "components/carrousel.css";
 
 .img-container {
     position: relative;
@@ -101,20 +99,5 @@ h3 {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-}
-
-.download {
-    background-color: #282828;
-    color: #FFFFFF;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: 0.3s, color 0.3s;
-}
-
-.download:hover {
-    background-color: #FAFAFA;
-    color: #282828;
 }
 
