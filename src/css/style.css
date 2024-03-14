@@ -101,7 +101,16 @@ p {
 .mentions-legales {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-style: light;
+    font-style: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.mentions-legales-bold {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+    font-style: bold;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
