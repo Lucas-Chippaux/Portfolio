@@ -109,8 +109,8 @@ p {
 
 .circle-shape { 
     margin: 2rem; 
-    overflow: hidden; /* Assure que le texte ne déborde pas de la forme */
-    position: relative; /* Permet de positionner les éléments à l'intérieur */
+    overflow: hidden; 
+    position: relative; 
 }
 
 .circle-shape p {
@@ -121,20 +121,20 @@ p {
     width: 33%;
     height: auto;
     min-width: 150px;
-    border-radius: 70%; /* Augmente le border-radius pour une forme plus arrondie */
+    border-radius: 70%; 
     float: left;
     margin-right: 2rem; 
-    position: relative; /* Permet de positionner le texte par rapport à cette image */
-    z-index: 1; /* Assure que l'image est au-dessus du texte */
+    position: relative; 
+    z-index: 1;
 }
 
 .circle-shape h2 {
-    position: absolute; /* Positionne le titre de manière absolue */
-    top: -50px; /* Positionne le titre au-dessus de l'image */
-    left: 50%; /* Aligne le titre horizontalement au centre */
-    transform: translate(-50%, -100%); /* Centre le titre horizontalement par rapport à son parent */
-    margin: 0; /* Supprime les marges par défaut */
-    z-index: 2; /* Assure que le titre est au-dessus de l'image */
-    background-color: white; /* Ajout d'un fond blanc pour une meilleure lisibilité */
-    padding: 10px 20px; /* Ajout de marge intérieure pour améliorer l'apparence */
+    position: absolute;
+    top: -50px; 
+    left: 50%;
+    transform: translate(-50%, -100%);
+    margin: 0; 
+    z-index: 2; 
+    background-color: white; 
+    padding: 10px 20px; 
 }

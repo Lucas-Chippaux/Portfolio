@@ -24,11 +24,11 @@ body {
 }
 
 .footer .row a:hover {
-  color: #bbbbbb; /* Changement de couleur du texte au survol */
+  color: #bbbbbb; 
 }
 
 .footer .row a:hover .social-icon {
-  filter: grayscale(100%); /* Appliquer un filtre de désaturation à 100% pour l'icône LinkedIn */
+  filter: grayscale(100%); 
 }
 
 .footer .row ul {
