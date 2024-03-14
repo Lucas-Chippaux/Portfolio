@@ -23,14 +23,6 @@ body {
   transition: 0.5s;
 }
 
-.footer .row a:hover {
-  color: #bbbbbb; 
-}
-
-.footer .row a:hover .social-icon {
-  filter: grayscale(100%); 
-}
-
 .footer .row ul {
   width: 100%;
 }
