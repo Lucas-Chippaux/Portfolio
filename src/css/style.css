@@ -155,10 +155,24 @@ p {
     font-size: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+    .titre-projet {
+        font-size: 40px; 
+        margin-top: 50px; 
+        margin-bottom: 50px; 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .titre-projet {
+        font-size: 30px; 
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+    }
+}
 .img-contain {
-    width: 50%;
+    width: 100%;
     max-width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +181,33 @@ p {
 .img-projets {
     object-fit: cover; 
     object-position: center;
-    width: 100%;
-    height: 100%;
+    max-width: 100%; 
+    height: auto; 
+    max-height: 100%; 
 }
 
+@media only screen and (max-width: 768px) {
+    .img-contain {
+        flex-direction: column; 
+    }
+
+    .img-projets {
+        max-width: 80%; 
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .img-projets {
+        max-width: 40%; 
+    }
+}
+
+.texte-projet {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
