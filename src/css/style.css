@@ -86,16 +86,40 @@ h2 {
     margin-right: 60px;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-style: light;
-}
-
-p {
+.h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .h3 {
+        font-size: 30px; 
+        margin-top: 50px; 
+        margin-bottom: 50px;
+        text-align: center; 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .h3 {
+        font-size: 20px; 
+        margin-top: 30px; 
+        margin-bottom: 30px;
+        text-align: center; 
+    }
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 
 }
 .mentions-legales {
@@ -149,15 +173,16 @@ p {
 }
 
 .titre-projet {
+    font-family: 'Unbounded', sans-serif;
+    font-style: normal;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
     font-size: 50px;
 }
 
 @media only screen and (max-width: 768px) {
     .titre-projet {
-        font-size: 40px; 
+        font-size: 30px; 
         margin-top: 50px; 
         margin-bottom: 50px; 
     }
@@ -165,7 +190,7 @@ p {
 
 @media only screen and (max-width: 576px) {
     .titre-projet {
-        font-size: 30px; 
+        font-size: 20px; 
         margin-top: 30px; 
         margin-bottom: 30px; 
     }
@@ -183,7 +208,10 @@ p {
     object-position: center;
     max-width: 100%; 
     height: auto; 
-    max-height: 100%; 
+    max-height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -205,6 +233,7 @@ p {
 .texte-projet {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    font-size: 20px;
     font-style: normal;
     margin-left: 50px;
     margin-right: 50px;
