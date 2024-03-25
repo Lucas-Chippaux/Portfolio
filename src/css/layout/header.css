@@ -7,8 +7,12 @@
     list-style: none;
 }
 
+header {
+    z-index: 1000;
+}
+
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 2px hsl(0, 0%, 16%);

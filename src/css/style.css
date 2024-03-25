@@ -159,7 +159,7 @@ h2 {
     float: left;
     margin-right: 2rem; 
     position: relative; 
-    z-index: 1;
+    z-index: 0;
 }
 
 .circle-shape h2 {
@@ -172,6 +172,7 @@ h2 {
     background-color: white; 
     padding: 10px 20px; 
 }
+
 
 .titre-projet {
     font-family: 'Unbounded', sans-serif;
