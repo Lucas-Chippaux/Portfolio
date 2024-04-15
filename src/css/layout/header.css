@@ -15,9 +15,11 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    box-shadow: 0 2px 2px hsl(0, 0%, 16%);
+    box-shadow: 0 2px 2px hsl(0, 0%, 0%);
     background-color: #FAFAFA;
-    z-index: 1;
+    z-index: 1000;
+    margin-bottom: -40px; 
+
 }
 
 nav {
@@ -35,12 +37,13 @@ nav {
 }
 
 .menu a {
+    font-family: 'Space Grotesk', sans-serif;
     display: block;
     padding: 7px 15px;
     font-size: 17px;
     font-weight: 500;
     transition: 0.2s all ease-in-out;
-    color: #282828;
+    color: #000000;
     text-align: center; 
 }
 
@@ -50,7 +53,7 @@ nav {
 
 .menu a:hover {
     opacity: 1;
-    color: #282828;
+    color: #000000;
 }
 
 .menu-icon {
@@ -78,7 +81,7 @@ nav {
         transform: scale(1, 0);
         transform-origin: top;
         transition: transform 0.3s ease-in-out;
-        box-shadow: rgba(40, 40, 40, 1) 1.95px 1.95px 2.6px;
+        box-shadow: rgb(0, 0, 0) 1.95px 1.95px 2.6px;
     }
 
     .menu a {
@@ -92,7 +95,7 @@ nav {
 
     .menu-icon {
         display: block;
-        color: #282828;
+        color: #000000;
         font-size: 28px;
         cursor: pointer;
     }
@@ -106,7 +109,6 @@ nav {
     }
 
     @media only screen and (max-width: 950px) {
-        /* Autres styles */
     
     }
 }

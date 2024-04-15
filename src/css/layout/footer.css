@@ -4,13 +4,14 @@ body {
 }
 
 .footer {
-  background: #282828;
+  background: #000000;
   padding: 30px 0px;
-  font-family: 'Tenor', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   text-align: center;
 }
 
 .footer .row {
+  font-family: 'Space Grotesk', sans-serif;
   width: 100%;
   margin: 1% 0%;
   padding: 0.6% 0%;
@@ -18,6 +19,7 @@ body {
 }
 
 .footer .row a {
+  font-family: 'Space Grotesk', sans-serif;
   text-decoration: none;
   color: #FAFAFA;
   transition: 0.5s;
