@@ -18,8 +18,11 @@ header {
     box-shadow: 0 2px 2px hsl(0, 0%, 0%);
     background-color: #FAFAFA;
     z-index: 1000;
-    margin-bottom: -40px; 
 
+}
+
+main {
+  padding-top: 40px;
 }
 
 nav {
